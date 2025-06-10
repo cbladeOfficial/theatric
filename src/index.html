@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Theatric - Home</title>
+  <link rel="stylesheet" href="theme.css">
+  <link href="/src/styles.css" rel="stylesheet">
+</head>
+<body onload="execOnLoad()">
+  <div class="container">
+    <div class="startup" id="startup-screen" style="display: none;">
+      <div class="logo">
+        <h1>Theatric</h1>
+      </div>
+    </div>
+    <div class="window">
+      <div class="sidebar" id="sidebar">
+        <button class="sidebar-tab" data-nav id="homebtn">Home</button>
+        <button class="sidebar-tab" data-nav id="moviesbtn">Movies</button>
+        <button class="sidebar-tab" data-nav id="videosbtn">Videos</button>
+        <button class="sidebar-tab" data-nav id="musicbtn">Music</button>
+        <button class="sidebar-tab" data-nav id="imagesbtn">Images</button>
+        <button class="sidebar-tab" data-nav id="weatherbtn">Weather</button>
+        <button class="sidebar-tab" data-nav id="rssbtn">RSS</button>
+        <button class="sidebar-tab" data-nav id="appsbtn">Apps</button>
+        <button class="sidebar-tab" data-nav id="pluginsbtn">Plugins</button>
+        <button class="sidebar-tab" data-nav id="settingsbtn">Settings</button>
+      </div>
+      <div class="content" id="content-page">
+        <div class="page pagepadding" id="homepage">
+          Home
+        </div>
+        <div class="page pagepadding" id="moviespage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="videospage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="musicpage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="imagespage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="weatherpage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="rsspage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="appspage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="pluginspage" style="display: none;">
+
+        </div>
+        <div class="page pagepadding" id="settingspage" style="display: none;">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/path/to/howler.js"></script>
+  <script src="main.js"></script>
+  <script src="nav.js"></script>
+</body>
+</html>
