@@ -1,3 +1,10 @@
+# Theatric
+
+Theatric is a cross-platform media-center application designed for computers. It supports custom apps and plugins coded in vanilla HTML, CSS, and JS (Support for such is coming soon, ETA TBD).
+Built with Tauri.
+
+***
+
 # Tauri + Vanilla
 
 This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
